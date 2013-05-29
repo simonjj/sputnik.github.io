@@ -7212,18 +7212,20 @@ a:active {
   border-bottom-style: solid;
 }
 .banner {
-  margin-right: 0px;
   background-size: cover;
   height: 533px;
   width: 100%;
   min-width: 1100px;
-  margin-bottom: 0px;
   background-image: url('../img/carousel-bg.jpg');
   background-repeat: no-repeat;
   background-color: transparent;
 }
 .banner .button {
   width: 175px;
+}
+.center {
+  margin: auto;
+  width: 1100px;
 }
 .span-banner-content {
   margin-top: 250px;
@@ -7284,33 +7286,19 @@ a:active {
 .middle-section {
   width: 100%;
   min-width: 1040px;
-  background-image: url('../img/carousel-bg.jpg');
+  background-image: url('../img/carousel-bg-alt.jpg');
   background-repeat: no-repeat;
   background-color: transparent;
   background-size: cover;
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
+}
+.middle-section p {
+  color: #FFFFFF;
+}
+.middle-section .red-october {
+  color: #EFE8D7;
 }
 .first {
   padding-top: 0px !important;
-}
-.inner-middle {
-  -moz-transform: scaleX(-1);
-  -o-transform: scaleX(-1);
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-  filter: FlipH;
-  -ms-filter: "FlipH";
-}
-.inner-middle p {
-  color: #FFFFFF;
-}
-.inner-middle .red-october {
-  color: #EFE8D7;
 }
 .container-bottom {
   width: 940px;
@@ -7320,7 +7308,7 @@ a:active {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  min-width: 1040px;
+  min-width: 1100px;
 }
 .container-bottom:before,
 .container-bottom:after {
@@ -7333,7 +7321,7 @@ a:active {
 }
 .bottom {
   width: 100% !important;
-  min-width: 1040px !important;
+  min-width: 1100px !important;
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 95px;
