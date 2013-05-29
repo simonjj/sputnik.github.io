@@ -7199,7 +7199,9 @@ a:active {
 }
 .banner-borders {
   width: 100%;
-  min-width: 1100px;
+  min-width: 1160px;
+  margin-right: 0px;
+  padding-right: 0px;
   border-top-color: #870B08;
   border-bottom-color: #870B08;
   padding-top: 3px;
@@ -7210,6 +7212,7 @@ a:active {
   border-bottom-style: solid;
 }
 .banner {
+  margin-right: 0px;
   background-size: cover;
   height: 533px;
   width: 100%;
@@ -7244,6 +7247,7 @@ a:active {
 }
 .under-banner {
   margin-left: 0px;
+  margin-bottom: 30px;
   width: 100%;
   min-width: 1100px;
   background-repeat: repeat-x;
@@ -7274,9 +7278,12 @@ a:active {
   border-color: #000000;
 }
 .icon {
-  height: 200px;
+  height: 240px;
+  width: 240px;
 }
 .middle-section {
+  width: 100%;
+  min-width: 1040px;
   background-image: url('../img/carousel-bg.jpg');
   background-repeat: no-repeat;
   background-color: transparent;
@@ -7298,7 +7305,6 @@ a:active {
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH";
-  padding-left: 60px;
 }
 .inner-middle p {
   color: #FFFFFF;
@@ -7314,7 +7320,7 @@ a:active {
   margin-left: 0px;
   margin-right: 0px;
   width: 100%;
-  min-width: 1100px;
+  min-width: 1040px;
 }
 .container-bottom:before,
 .container-bottom:after {
@@ -7325,18 +7331,15 @@ a:active {
 .container-bottom:after {
   clear: both;
 }
-.container-bottom .row {
-  padding-left: 60px;
-}
 .bottom {
   width: 100% !important;
-  min-width: 1100px !important;
+  min-width: 1040px !important;
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 95px;
 }
 .bottom .icon {
-  margin-top: -30px;
+  margin-top: -55px;
 }
 .sputton-link:hover {
   color: #ffffff;
