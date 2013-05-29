@@ -7228,7 +7228,7 @@ a:active {
   width: 1100px;
 }
 .span-banner-content {
-  margin-top: 250px;
+  margin-top: 150px;
   width: 580px;
 }
 .span-banner-content h3 {
@@ -7279,6 +7279,13 @@ a:active {
   background-color: #151515;
   border-color: #000000;
 }
+li {
+  font-family: 'Museo-Regular-500';
+  color: #000000;
+}
+.emphasis {
+  color: #870B08;
+}
 .icon {
   height: 240px;
   width: 240px;
@@ -7325,9 +7332,6 @@ a:active {
   margin-left: 0px;
   margin-right: 0px;
   padding-top: 95px;
-}
-.bottom .icon {
-  margin-top: -55px;
 }
 .sputton-link:hover {
   color: #ffffff;
