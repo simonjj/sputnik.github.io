@@ -9,7 +9,6 @@
 
     <!-- Le styles -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <script type="text/javascript">
         function play_single_sound() {
@@ -33,18 +32,18 @@
   <body>
     <div class="container">
         <div class="row">
-            <div class="span-half"> </div>
             <div class="span3">
                 <img class="header" src="assets/img/sputnik-header.png" />
             </div>
+            <div class="span-half"></div>
             <div class="span6"></div>
             <div class="span2">
-                <p class="top-bar"><a href=#>learn</a> &nbsp | &nbsp <a href=#>shop</a> &nbsp | &nbsp <a href="https://github.com/sputnik" target="_blank"><i class="icon-large icon-github"></i></a></p>
+                <p class="top-bar"><a href=#>learn</a> &nbsp | &nbsp <a href="http://www.dell.com/us/business/p/xps-13-linux/pd" target="_blank">shop</a> &nbsp | &nbsp <a href="https://github.com/sputnik" target="_blank"><i class="icon-large icon-github"></i></a></p>
             </div>
         </div>
         <div class="row">
-            <div class="span5"></div>
-            <div class="span7">
+            <div class="span4"></div>
+            <div class="span8">
                 <ul class="nav nav-pills sputton">
                     <li class="dropdown"><a href="#" data-toggle="dropdown" >Features<b class="caret"></b></a>
                         <ul class="dropdown-menu" role="menu">
@@ -66,69 +65,72 @@
                 </ul>
             </div>
         </div>
-        <div class="car-borders">
+    </div>
+        <div class="banner-borders">
         <div class="banner">
-            <div class="row">
-                <div class="span1"></div>
-                <div class="span-car-content">
-                     <h3>Pro-ject Sput-nik &nbsp
-                         <audio id="sputnik-audio" preload="auto" src="assets/audio/audio.wav" type="audio/wav"></audio>
-                         <a href="javascript:play_single_sound()"><i style="color:#FFFFFF" class="icon-volume-down"></i></a>
-                     </h3>
-                     <h3><i>n.</i></h3>
-                     <br>
-                     <p>Sputnik is a set of tools for programmatically managing
-                     your development environment. By applying the principle
-                     of infrastructure as code to your personal workstation
-                     it makes the process of maintaining it both deterministic
-                     and modular.</p>
-                     <br>
-                     <button class="button" onClick="window.location.href='https://github.com/sputnik' window."><i class="icon-large icon-github"></i> View on GitHub</button>
-                 </div>
-                 <div class="span-car-img"><img src="assets/img/xps13-sputnik-graphic.png" /></div>
+            <div class="span1"></div>
+            <div class="span-banner-content">
+                 <h3>Pro-ject Sput-nik &nbsp
+                     <audio id="sputnik-audio" preload="auto" src="assets/audio/audio.wav" type="audio/wav"></audio>
+                     <a href="javascript:play_single_sound()"><i style="color:#FFFFFF" class="icon-volume-down"></i></a>
+                 </h3>
+                 <h3><i>n.</i></h3>
+                 <br>
+                 <p>Sputnik is a set of tools for programmatically managing
+                 your development environment. By applying the principle
+                 of infrastructure as code to your personal workstation
+                 it makes the process of maintaining it both deterministic
+                 and modular.</p>
+                 <br>
+                 <button class="button" onClick="window.open('https://github.com/sputnik', '_blank')"><i class="icon-large icon-github"></i> View on GitHub</button>
              </div>
+             <div class="span-banner-img"><img src="assets/img/xps13-sputnik-graphic.png" /></div>
         </div>
     </div>
-        <div class="under-carousel"></div>
+    <div class="under-banner"></div>
+    <div class="container">
         <div class="row">
-            <div class="span-half"></div>
             <div class="span3">
                 <img class="icon" src="assets/img/laptop-icon.png" />
-                <br>
+            </div>
+            <div class="span9">
                 <br>
                 <p class="red-october">CODE YOUR LAPTOP LIKE THE CLOUD.</p>
-                <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
                 at dolor libero, vitae condimentum sem. Maecenas tincidunt quam
                 sit amet lacus semper ac malesuada lacus faucibutor.</p>
                 <br>
-                <button class="button" href="#">Read More</button>
+                <p class="text-right"><button class="button" href="#">Read More</button></p>
+                <br>
             </div>
-            <div class="span1"></div>
+        </div>
+        <div class="row">
             <div class="span3">
                 <img class="icon" src="assets/img/cloud-icon.png" />
-                <br>
-                <br>
+            </div>
+            <div class="span9">
                 <p class="red-october">ALWAYS HAVE IT ON HAND.</p>
-                <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
                 at dolor libero, vitae condimentum sem. Maecenas tincidunt quam
                 sit amet lacus semper ac malesuada lacus faucibutor.</p>
                 <br>
-                <button class="button" href="#">Read More</button>
+                <p class="text-right"><button class="button" href="#">Read More</button></p>
+                <br>
             </div>
-            <div class="span1"></div>
+        </div>
+        <div class="row">
             <div class="span3">
                 <img class="icon" src="assets/img/world-icon.png" />
-                <br>
-                <br>
+            </div>
+                <div class="span9">
                 <p class="red-october">SHARE WITH THE WORLD.</p>
                 <br>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
                 at dolor libero, vitae condimentum sem. Maecenas tincidunt quam
                 sit amet lacus semper ac malesuada lacus faucibutor.</p>
                 <br>
-                <button class="button" href="#">Read More</button>
+                <p class="text-right"><button class="button" href="#">Read More</button></p>
+                <br>
             </div>
         </div>
         <div style="height: 50px"></div>
@@ -142,7 +144,6 @@
                 <p class="text-center"><img src="assets/img/sputnik-footer.png" /></p>
             </div>
         </div>
-
     </div> <!-- /container -->
 
     <!-- Le javascript

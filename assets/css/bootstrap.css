@@ -7159,6 +7159,15 @@ ul.icons {
   font-weight: normal;
   font-style: normal;
 }
+.header {
+  text-align: center;
+  margin-bottom: -30px;
+}
+.top-bar {
+  margin-top: 10px;
+  font-family: 'Museo-Regular-500';
+  font-size: 10pt;
+}
 body {
   background-image: url('background.png');
   background-repeat: repeat;
@@ -7169,8 +7178,18 @@ p {
   color: #1a1a1c;
   font-size: 16px;
 }
-.carousel-control {
-  color: #FFFFFF;
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: #870B08;
+  text-decoration: none;
+}
+.span-half {
+  width: 30px;
+}
+.nav-pills {
+  margin-bottom: 5px;
 }
 .red-october {
   color: #860b06;
@@ -7178,7 +7197,9 @@ p {
   font-size: 22px;
   font-family: 'Red October-Regular', Sans-Serif;
 }
-.car-borders {
+.banner-borders {
+  width: 100%;
+  min-width: 1100px;
   border-top-color: #870B08;
   border-bottom-color: #870B08;
   padding-top: 3px;
@@ -7189,19 +7210,45 @@ p {
   border-bottom-style: solid;
 }
 .banner {
+  background-size: cover;
   height: 533px;
+  width: 100%;
+  min-width: 1100px;
   margin-bottom: 0px;
   background-image: url('../img/carousel-bg.jpg');
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-color: transparent;
 }
-.under-carousel {
+.banner .button {
+  width: 175px;
+}
+.span-banner-content {
+  margin-top: 250px;
+  width: 580px;
+}
+.span-banner-content h3 {
+  color: #EFE8D7;
+  font-family: 'Museo-Regular-500';
+  font-size: 16pt;
+  line-height: .8;
+}
+.span-banner-content p {
+  color: #FFFFFF;
+  font-family: 'Museo-Regular-700';
+  font-size: 11pt;
+  line-height: 1.5;
+}
+.span-banner-img {
+  margin-top: 125px;
+  width: 360px;
+}
+.under-banner {
+  margin-left: 0px;
+  width: 100%;
+  min-width: 1100px;
   background-repeat: repeat-x;
   background-image: url("../img/border.png");
   height: 50px;
-}
-.icon {
-  height: 200px;
 }
 .button {
   text-align: center;
@@ -7226,14 +7273,11 @@ p {
   background-color: #151515;
   border-color: #000000;
 }
-.banner .button {
-  width: 175px;
+.icon {
+  height: 200px;
 }
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: #870B08;
+.span-icon {
+  width: 280;
 }
 .sputton-link:hover {
   color: #ffffff;
@@ -7354,39 +7398,4 @@ a:active {
 .sputton .active a:focus,
 .sputton .active a:active {
   background-color: #870B08;
-}
-.top-bar {
-  margin-top: 10px;
-  font-family: 'Museo-Regular-500';
-  font-size: 10pt;
-}
-.nav-pills {
-  margin-bottom: 0px;
-}
-.span-half {
-  width: 30px;
-}
-.header {
-  text-align: center;
-  margin-bottom: -30px;
-}
-.span-car-content {
-  margin-top: 250px;
-  width: 580px;
-}
-.span-car-img {
-  margin-top: 125px;
-  width: 360px;
-}
-.span-car-content h3 {
-  color: #FFFFFF;
-  font-family: 'Museo-Regular-500';
-  font-size: 16pt;
-  line-height: .8;
-}
-.span-car-content p {
-  color: #FFFFFF;
-  font-family: 'Museo-Regular-700';
-  font-size: 11pt;
-  line-height: 1.5;
 }
