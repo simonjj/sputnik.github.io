@@ -7410,6 +7410,10 @@ a:active {
 .sputton a:active {
   background-color: #870B08;
 }
+.sputton .dropdown-menu li a:hover {
+  background-image: none;
+  background-color: #870B08;
+}
 .sputton .active a {
   background-color: #870B08;
 }
