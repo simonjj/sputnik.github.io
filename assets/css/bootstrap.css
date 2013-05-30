@@ -7280,6 +7280,7 @@ a:active {
   border-color: #000000;
 }
 li {
+  list-style-image: url('../ico/favicon.png');
   font-family: 'Museo-Regular-500';
   color: #000000;
 }
