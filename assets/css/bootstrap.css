@@ -7287,8 +7287,9 @@ li {
   color: #870B08;
 }
 .icon {
-  height: 240px;
-  width: 240px;
+  height: 229px;
+  width: 229px;
+  margin: -20px;
 }
 .middle-section {
   width: 100%;
