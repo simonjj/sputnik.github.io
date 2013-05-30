@@ -7174,9 +7174,12 @@ body {
   background-color: transparent;
 }
 p {
-  font-family: 'Museo-Regular-300';
+  font-family: 'Museo-Regular-500';
   color: #1a1a1c;
   font-size: 16px;
+}
+li {
+  font-family: 'Museo-Regular-500';
 }
 a:link,
 a:visited,
@@ -7282,6 +7285,7 @@ a:active {
 .details {
   list-style-image: url('../ico/favicon.png');
   font-family: 'Museo-Regular-500';
+  font-size: 16px;
   color: #000000;
 }
 .emphasis {
@@ -7294,11 +7298,7 @@ a:active {
 }
 .middle-section {
   width: 100%;
-  min-width: 1040px;
-  background-image: url('../img/carousel-bg-alt.jpg');
-  background-repeat: no-repeat;
-  background-color: transparent;
-  background-size: cover;
+  min-width: 1100px;
 }
 .middle-section p {
   color: #FFFFFF;
@@ -7458,4 +7458,13 @@ a:active {
 .sputton .active a:focus,
 .sputton .active a:active {
   background-color: #870B08;
+}
+.test {
+  padding-top: 50px;
+  position: absolute;
+  z-index: -1;
+  margin-bottom: -354px;
+  height: 354px;
+  width: 100%;
+  min-width: 1100px;
 }
